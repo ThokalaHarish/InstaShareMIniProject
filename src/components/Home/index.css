@@ -1,0 +1,136 @@
+.home-page-container {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+}
+.home-post-container {
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #fafafa;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.search-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #262626;
+}
+.post-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.search-card-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(123, 135, 148, 0.16);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.post-list-container {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+.search-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.search-failure-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #262626;
+}
+
+.search-failure-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #989898;
+  margin-top: 0px;
+}
+.search-failure-img {
+  height: 420px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.home-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.home-failure-view-img {
+  height: 50px;
+}
+.home-error-msg {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #262626;
+}
+.home-failure-btn {
+  width: 102px;
+  height: 36px;
+  background-color: #4094ef;
+  border-radius: 8px;
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.search-failure-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #262626;
+}
+.search-failure-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #989898;
+  margin-top: 0px;
+}
